@@ -47,7 +47,7 @@ st.markdown('<div class="subheader">Provide the following details to predict hea
 col1, col2 = st.columns(2)
 with col1:
     patient_name = st.text_input("Patient Name", help="Enter the patient's full name.")
-    sex = st.selectbox("Sex", options=[0, 1], format_func=lambda x: "Male" if x == 1 else "Female", help="Select patient’s gender.")
+    sex = st.selectbox("Sex", options=[0, 1], format_func=lambda x: "Female" if x == 0 else "Male", help="Select patient’s gender.")
     cp = st.selectbox("Chest Pain Type", options=[0, 1, 2, 3], format_func=lambda x: ["Typical angina", "Atypical angina", "Non-anginal pain", "Asymptomatic"][x], help="Type of chest pain.")
     thalach = st.number_input("Max Heart Rate (thalach)", min_value=50, max_value=250, value=180, help="Max heart rate during stress test.")
 with col2:
