@@ -1,7 +1,8 @@
-streamlit
-pandas
-numpy
-matplotlip
-scikit-learn
+streamlit==1.39.0
+pandas==2.2.3
+numpy==2.1.1
+joblib==1.4.2
+matplotlib==3.9.2
+scikit-learn==1.7.1
 reportlab
 pyngrok
