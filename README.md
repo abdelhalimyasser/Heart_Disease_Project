@@ -7,9 +7,9 @@ The goal is to apply data preprocessing, exploratory analysis, and machine learn
 ---
 
 ## 📊 Dataset  
-- **Source:** [UCI Machine Learning Repository – Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)  
-- **Features:** Age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise-induced angina, ST depression, slope, vessels, thalassemia.  
-- **Target:** Presence (1) or absence (0) of heart disease.  
+* **Source:** [UCI Machine Learning Repository – Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)  
+* **Features:** Age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise-induced angina, ST depression, slope, vessels, thalassemia.  
+* **Target:** Presence (1) or absence (0) of heart disease.  
 
 ---
 
@@ -46,41 +46,54 @@ You can interact with the live demo of this project through **Streamlit App**:
 👉 [Heart Disease Prediction – Streamlit App](https://heartdiseaseprojects.streamlit.app/)  
 
 This app allows you to:  
-- Input patient data (sex, chest pain type, etc.)  
-- Get real-time predictions whether the patient is at risk of heart disease  
-- Visualize the results and understand the model’s decision-making
-- Downloading Prediction Report
+* Input patient data (sex, chest pain type, etc.)  
+* Get real-time predictions whether the patient is at risk of heart disease  
+* Visualize the results and understand the model’s decision-making
+* Downloading Prediction Report
+<!--
+## 🎥 Demo Video  
+
+👉 Click below to watch the demo on YouTube:  
+
+<p align="center">
+  <a href="https://youtu.be/YvsRaySnnL8">
+    <img src="https://img.youtube.com/vi/YvsRaySnnL8/0.jpg" alt="Demo Video" width="500"/>
+  </a>
+</p>
+-->
 
 ---
 
 ## 📌 Results  
-- **Logistic Regression** performed best  
-- Key features influencing predictions: cp, thalach, thal  
-- ML can provide valuable support in **healthcare decision-making**  
+* **Logistic Regression** performed best  
+* Key features influencing predictions: cp, thalach, thal  
+* ML can provide valuable support in **healthcare decision-making**  
 
 ---
 
 ## 🛠️ Tech Stack  
-- **Python:** `Python 3.13.7` 
-- **Libraries:** `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`  
-- **Notebook:** `Google Colab` & `Jupyter`  
+* **Python:** `Python 3.13.7` 
+* **Libraries:** `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`  
+* **Notebook:** `Google Colab` & `Jupyter`  
 
 ---
 
 ## 📑 Reports & Diagrams  
 This project provides:  
-- **Reports:** Model performance summaries & evaluation metrics  
-- **Diagrams:**  
+* **Reports:** Model performance summaries & evaluation metrics  
+* **Diagrams:**  
   - Correlation heatmap  
   - Feature distribution plots  
   - ROC-AUC curve  
-
+<!--
+(*Add screenshots of your plots here for better illustration*)  
+-->
 ---
 
 ## 📚 Learning Outcomes  
-- Applied a **full ML pipeline** (preprocessing → training → evaluation)  
-- Hands-on experience with **classification problems**  
-- Stronger understanding of **EDA and feature importance**  
+* Applied a **full ML pipeline** (preprocessing → training → evaluation)  
+* Hands-on experience with **classification problems**  
+* Stronger understanding of **EDA and feature importance**  
 
 ---
 
