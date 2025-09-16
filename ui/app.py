@@ -152,6 +152,7 @@ import pandas as pd
 import datetime
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
+from reportlab.pdfgen import canvas
 from reportlab.platypus import Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
