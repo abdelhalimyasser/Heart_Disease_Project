@@ -1,3 +1,4 @@
 texlive-full
 texlive-fonts-extra
 latexmk
+pylatex
