@@ -1,1 +1,41 @@
+Heart Disease Prediction Model - Evaluation Metrics
 
+1. Logistic Regression
+   - Train Accuracy: 0.826446
+   - Test Accuracy: 0.901639
+   - Precision: 0.906250
+   - Recall: 0.906250
+   - F1 Score: 0.906250
+
+2. Random Forest
+   - Train Accuracy: 0.929752
+   - Test Accuracy: 0.885246
+   - Precision: 0.931034
+   - Recall: 0.843750
+   - F1 Score: 0.885246
+
+3. K-Nearest Neighbors (KNN)
+   - Train Accuracy: N/A
+   - Test Accuracy: 0.819672
+   - Precision: 0.823647
+   - Recall: 0.819672
+   - F1 Score: 0.819672
+
+4. Support Vector Classifier (SVC)
+   - Train Accuracy: N/A
+   - Test Accuracy: 0.770492
+   - Precision: 0.776666
+   - Recall: 0.770492
+   - F1 Score: 0.770245
+
+5. Decision Tree
+   - Train Accuracy: N/A
+   - Test Accuracy: 0.803279
+   - Precision: 0.809808
+   - Recall: 0.803279
+   - F1 Score: 0.803067
+
+Notes:
+- Metrics are based on the test dataset.
+- 'N/A' means training accuracy was not recorded for this model.
+- Keep this file updated whenever models are retrained or tuned.
