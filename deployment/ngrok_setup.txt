@@ -1,1 +1,17 @@
+# 1. Install ngrok from https://ngrok.com/download
+#    Or if you're using pip, run:
+#    pip install pyngrok
 
+# 2. Sign up on ngrok.com and get your auth token
+
+# 3. Authenticate ngrok with your token (replace <YOUR_AUTHTOKEN>):
+ngrok config add-authtoken <YOUR_AUTHTOKEN>
+
+# 4. Run your Streamlit app (e.g. app.py):
+streamlit run app.py --server.port 8501
+
+# 5. In a new terminal, run ngrok to forward port 8501:
+ngrok http 8501
+
+# 6. Copy the forwarding link (https://xxxx.ngrok-free.app) 
+#    and share it with others to access your Streamlit app online.
